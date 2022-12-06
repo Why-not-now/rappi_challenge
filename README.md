@@ -48,7 +48,7 @@ Usa tu creatividad para generar nuevos datos y que tenga más sentido la automat
 ## Instancia de snowflake 
 ![Tablas subidas y auxiliares en la instancia de snowflake en el database de RAPPI](screenshots/screenshot_142.png)
 ## Instancia de Airflow en Google Cloud Composer
-![Instancia de airflow levantada en Composer](screenshots/screenshot_143.png)
+![Instancia de airflow levantada en Composer](/screenshots/screenshot_143.png)
 
 ## Ejecución del DAG que creó las tablas auxiliares a partir de los data entries en Kaggle
 
