@@ -47,22 +47,22 @@ Usa tu creatividad para generar nuevos datos y que tenga más sentido la automat
 
 ## Instancia de snowflake 
 
-![Tablas subidas y auxiliares en la instancia de snowflake en el database de RAPPI](Screenshots/screenshot_142.png)
+![Tablas subidas y auxiliares en la instancia de snowflake en el database de RAPPI](screenshots/Screenshot_142.png)
 
 ## Instancia de Airflow en Google Cloud Composer
-![Instancia de airflow levantada en Composer](/screenshots/screenshot_143.png)
+![Instancia de airflow levantada en Composer](screenshots/Screenshot_143.png)
 
 ## Ejecución del DAG que creó las tablas auxiliares a partir de los data entries en Kaggle
 
-![Instancia de airflow levantada en Composer](screenshots/screenshot_144.png)
+![Instancia de airflow levantada en Composer](screenshots/Screenshot_144.png)
 
 ## Bucket en Google Cloud Storage donde se encuentran los archivos a utilizar en Airflow
 
-![Bucket de airflow donde se encuentran las DML y el DAG que automatiza la carga de las tablas](screenshots/screenshot_145.png)
+![Bucket de airflow donde se encuentran las DML y el DAG que automatiza la carga de las tablas](screenshots/Screenshot_145.png)
 
 ## Integración de Slack con Apache Airflow
 Como se puede ver se las ejecuciones son cada 15 minutos y de igual manera se ha implementado alertas para cuando hayan errores así cómo para cuando el DAG inicia y finaliza.
-![Integración de Airflow con Slack](screenshots/screenshot_147.png)
+![Integración de Airflow con Slack](screenshots/Screenshot_147.png)
 
 ## Envío de tablas como archivos a AWS S3 utilizando operadores en airflow, primero enviando de snowflake a Google Cloud Storage y luego de GCS a AWS S3
 
@@ -86,8 +86,8 @@ Se utilizaron 2 operadores principales:
         )
 ```
 ### Acá se muestra el bucket en GCS con los archivos de las tablas en Snowflake
-![Bucket de GCS con archivos que hacen referencia a las tablas de snowflake](screenshots/screenshot_149.png)
+![Bucket de GCS con archivos que hacen referencia a las tablas de snowflake](screenshots/Screenshot_149.png)
 ### Y finalmente este es replicado en S3 con el operador mostrado previamente
-![Bucket en S3 con archivos replicados de GCS](screenshots/screenshot_150.png)
+![Bucket en S3 con archivos replicados de GCS](screenshots/Screenshot_150.png)
 
 # Eso sería todo muchas gracias.
