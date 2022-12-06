@@ -46,7 +46,9 @@ Usa tu creatividad para generar nuevos datos y que tenga más sentido la automat
 # Screenshots de la realización del challenge
 
 ## Instancia de snowflake 
-![Tablas subidas y auxiliares en la instancia de snowflake en el database de RAPPI](screenshots/screenshot_142.png)
+
+![Tablas subidas y auxiliares en la instancia de snowflake en el database de RAPPI](Screenshots/screenshot_142.png)
+
 ## Instancia de Airflow en Google Cloud Composer
 ![Instancia de airflow levantada en Composer](/screenshots/screenshot_143.png)
 
