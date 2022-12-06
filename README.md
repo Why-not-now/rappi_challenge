@@ -1,4 +1,4 @@
-# CHALLENGE RAPPIfunciones
+# CHALLENGE RAPPI
 
 ## Descripción
 El challenge consiste en las siguientes tareas:
